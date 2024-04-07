@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    padding: 16px;
+    background-color: rgb(31, 31, 31);
+    color: #fff;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 12px;
+    border: 2px solid #fff;
+}
+
+.jazzz {
+    color: gold;
+}
+
+.cesar {
+    color: orange;
+}
+
+#sobre {
+    margin: 8px 0px 12px 0px;
+}
+
+a {
+    color: #1eb8ff;
+}
+
+.fa-linkedin, .fa-square-instagram {
+    color: #0096dc;
+    font-size: 18px;
+    margin-right: 4px;
+}
+
+p.instagram {
+    margin-top: 8px;
+}
+
+.fa-square-instagram {
+    color: rgb(226, 43, 211);
+}
+
+p.instagram a {
+    color: rgb(226, 43, 211);
+}
+
+ul li:nth-child(3) {
+    color: orange;
+}
+
+hr {
+    margin-top: 22px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    margin-bottom: 12px;
+}
+
+ul, ol {
+    margin-left: 22px;
+}
+
+table, th, td {
+    border: 1px solid #fff;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+}
