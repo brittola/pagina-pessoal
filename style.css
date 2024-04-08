@@ -11,6 +11,12 @@ body {
     color: #fff;
 }
 
+div.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 img {
     width: 150px;
     border-radius: 50%;
