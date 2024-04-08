@@ -6,7 +6,7 @@
 }
 
 body {
-    padding: 16px;
+    padding-bottom: 60px;
     background-color: rgb(31, 31, 31);
     color: #fff;
 }
@@ -19,9 +19,10 @@ div.container {
 
 img.banner {
     width: 100%;
-    aspect-ratio: 4 / 1;
+    margin-bottom: -80px;
+    aspect-ratio: 7 / 2;
     object-fit: cover;
-    margin-bottom: -75px;
+    object-position: unset;
 }
 
 img.perfil {
