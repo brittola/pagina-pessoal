@@ -1,82 +1,122 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <title>Gabriel Rodrigues - Página Pessoal</title>
-  <!-- biblioteca de ícones -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Pessoal - Gabriel Rodrigues</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./style.css">
-  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-  <div class="container">
-    <img class="banner" src="./img/banner.gif" alt="Ilustração de um notebook com a legenda UI/UX Development">
-    <img class="perfil" src="./img/gabriel.jpg" alt="Imagem de perfil do Gabriel" />
-  
-    <h1>Gabriel Rodrigues</h1>
+  <header>
+    <img src="./img/gabriel.jpg" alt="Imagem de perfil de Gabriel" class="profile">
+    <div class="info">
+      <h1>Gabriel Rodrigues</h1>
+      <p>Desenvolvedor Full-Stack na <strong>Jazzz Agência Digital</strong></p>
+      <div class="links">
+        <a href="https://linkedin.com/in/grbritto" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/brittola" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+    <!-- a película vai escurecer o gif -->
+    <div class="pelicula"></div>
+    <!-- <img src="./img/banner.gif" alt="Banner animado de gotas de chuva caindo numa poça" class="background"> -->
+  </header>
+  <!-- vou aplicar um background com transparência nessa div para fazer a transição do banner para o fundo preto -->
+  <div class="divisoria"></div>
+  <main>
+    <section class="sobre container">
+      <h1>Sobre mim</h1>
+      <p>
+        Sou desenvolvedor full-stack desde 2022, atualmente cursando o 1º Período de Análise e Desenvolvimento de
+        Sistemas na <span class="cesar">CESAR School</span>. Minha paixão sempre foi a tecnologia e sou muito feliz por estar
+        trilhando minha carreira profissional nessa área.
+      </p>
+      <h3>
+        Meus hobbies
+      </h3>
+      <ul>
+        <li>
+          Assistir esportes 🏀⚽
+        </li>
+        <li>
+          Ver filmes 📺
+        </li>
+        <li>
+          Praticar atividades físicas 🏃
+        </li>
+        <li>
+          Espalhar conhecimento 🧠
+        </li>
+      </ul>
+    </section>
+    <section class="skills container">
+      <h1>Skills e formações</h1>
+      <p>
+        Algumas das minhas habilidades:
+      </p>
+      <ul>
+        <li>
+          <i class="fa-brands fa-html5"></i>
+        </li>
+        <li>
+          <i class="fa-brands fa-css3-alt"></i>
+        </li>
+        <li>
+          <i class="fa-brands fa-js"></i>
+        </li>
+        <li>
+          <i class="fa-brands fa-node"></i>
+        </li>
+        <li>
+          <i class="fa-solid fa-database"></i>
+        </li>
+        <li>
+          <i class="fa-brands fa-golang"></i>
+        </li>
+      </ul>
+      <p class="jornada">
+        Meu aprendizado no mundo da programação foi sempre por meio da internet, através de cursos e também por alguns livros. Após dois anos estudando por conta própria, consegui participar do Embarque Digital e consegui minha vaga na faculdade! 📓
+      </p>
+    </section>
+    <section class="projetos container">
+      <h1>Projetos</h1>
+      <div class="cards">
+        <a href="https://jazzz.com.br/" target="_blank">
+          <img src="./img/projeto1.png" alt="Site da Jazzz Agência Digital">
+          <h3>Jazzz Agência Digital</h3>
+        </a>
+        <a href="https://blue-sky-global.com" target="_blank">
+          <img src="./img/projeto2.png" alt="Site da Blue Sky">
+          <h3>Blue Sky</h3>
+        </a>
+        <a href="https://fiabesa.com.br/" target="_blank">
+          <img src="./img/projeto3.png" alt="Site da Fiabesa">
+          <h3>Fiabesa</h3>
+        </a>
+      </div>
+      <a href="" class="github">
+        <i class="fa-brands fa-github"></i>
+        <span>Veja mais no GitHub</span>
+      </a>
+    </section>
+  </main>
+  <footer>
     <p>
-      <em>Líder de Desenvolvimento na <strong class="jazzz">Jazzz Agência Digital 🎷</strong></em>
+      Gabriel Rodrigues, 2024 © Todos os direitos reservados
     </p>
-    <p id="sobre">
-      Desenvolvedor Front-End, cursando primeiro período de Análise e Desenvolvimento de Sistemas na <span class="cesar">CESAR School</span> 🛸.
-    </p>
-    <p><i class="fa-brands fa-linkedin"></i> Veja meu <a href="https://br.linkedin.com/in/grbritto">Linkedin</a></p>
-    <p class="instagram"><i class="fa-brands fa-square-instagram"></i> Visite o meu <a href="https://instagram.com/gr_britto">Instagram</a></p>
-  
-    <hr />
-    <h3>Cursos e especilizações</h3>
-    <ul>
-      <li>Desenvolvimento Web Full-Stack - ProgramadorBr</li>
-      <li>Formação NodeJS - Udemy</li>
-      <li>
-        Graduação em andamento - ADS - CESAR School
-      </li>
-    </ul>
-  
-    <hr />
-    <h3>Meus hobbies</h3>
-    <ol>
-      <li>Esportes ⚽🏀</li>
-      <li>Filmes, séries e desenhos animados 📺</li>
-      <li>Jogos Eletrônicos 🎮</li>
-    </ol>
-  
-    <hr>
-    <h3>Experiências Profissionais</h3>
-    <table>
-      <tr>
-        <th>Data</th>
-        <th>Experiência</th>
-        <th>Empresa</th>
-      </tr>
-      <tr>
-        <td>
-          2020 - 2021
-        </td>
-        <td>
-          Operador de Vendas
-        </td>
-        <td>
-          Farmácias Independente
-        </td>
-      </tr>
-      <tr>
-        <td>
-          2022 - Atualmente
-        </td>
-        <td>
-          Desenvolvedor Front-end
-        </td>
-        <td>
-          Jazzz Agência Digital
-        </td>
-      </tr>
-    </table>
-  </div>
+    <a href="https://cesar.school/" target="_blank">
+      <img src="./img/cesar.png" alt="Logo CESAR School">
+    </a>
+  </footer>
 </body>
 
 </html>
